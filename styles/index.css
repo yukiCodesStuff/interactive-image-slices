@@ -1,0 +1,19 @@
+.img-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 175px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+
+    transition: all 800ms ease-in-out;
+}
+
+.img:hover {
+    /* width: auto; */
+    /* overflow: visible; */
+    transform: scale(1.2);
+}
